@@ -1,0 +1,45 @@
+use('EBAC')
+
+db.alunos.find().sort({nome: 1})
+
+db.alunos.find({
+    $and: [ 
+        { curso: "QA"},
+        { nota: {$gte: 6}}
+    ]
+})
+
+[
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735a"
+    },
+    "nome": "Fábio",
+    "nota": 7,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735d"
+    },
+    "nome": "João",
+    "nota": 7,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735f"
+    },
+    "nome": "Maria",
+    "nota": 8,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037361"
+    },
+    "nome": "Ana",
+    "nota": 9,
+    "curso": "QA"
+  }
+]

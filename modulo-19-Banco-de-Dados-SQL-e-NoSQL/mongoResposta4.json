@@ -1,0 +1,24 @@
+use('EBAC')
+
+db.alunos.find().sort({nome: 1})
+
+db.alunos.find({curso: "SQL"})
+
+[
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735b"
+    },
+    "nome": "Alice",
+    "nota": 9,
+    "curso": "SQL"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037360"
+    },
+    "nome": "José",
+    "nota": 4,
+    "curso": "SQL"
+  }
+]

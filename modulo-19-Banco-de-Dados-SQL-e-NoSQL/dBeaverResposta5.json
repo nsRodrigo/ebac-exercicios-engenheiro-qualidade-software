@@ -1,0 +1,33 @@
+{
+"SELECT * FROM EBAC WHERE Nota >= 6": [
+	{
+		"AlunoId" : 2,
+		"Nome" : "José Pedro",
+		"Curso" : "Dev",
+		"Nota" : 8
+	},
+	{
+		"AlunoId" : 3,
+		"Nome" : "Mariana",
+		"Curso" : "QA",
+		"Nota" : 9
+	},
+	{
+		"AlunoId" : 4,
+		"Nome" : "Aline",
+		"Curso" : "QA",
+		"Nota" : 6
+	},
+	{
+		"AlunoId" : 5,
+		"Nome" : "Alice",
+		"Curso" : "SQL",
+		"Nota" : 7
+	},
+	{
+		"AlunoId" : 7,
+		"Nome" : "Alan",
+		"Curso" : "QA",
+		"Nota" : 8
+	}
+]}

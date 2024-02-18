@@ -1,0 +1,82 @@
+use('EBAC')
+
+db.alunos.find().sort({nome: 1})
+
+[
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735b"
+    },
+    "nome": "Alice",
+    "nota": 9,
+    "curso": "SQL"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037361"
+    },
+    "nome": "Ana",
+    "nota": 9,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735a"
+    },
+    "nome": "Fábio",
+    "nota": 7,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037360"
+    },
+    "nome": "José",
+    "nota": 4,
+    "curso": "SQL"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037362"
+    },
+    "nome": "José Pedro",
+    "nota": 7,
+    "curso": "UX"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735d"
+    },
+    "nome": "João",
+    "nota": 7,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735f"
+    },
+    "nome": "Maria",
+    "nota": 8,
+    "curso": "QA"
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735c"
+    },
+    "nome": "Mariana",
+    "cargo": "Professora",
+    "curso": [
+      "QA",
+      "FrontEnd",
+      "MongoDB"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc95003735e"
+    },
+    "nome": "Paulo",
+    "nota": 5,
+    "curso": "Dev"
+  }
+]

@@ -1,0 +1,15 @@
+{
+"SELECT * FROM EBAC WHERE Nome LIKE \"%Pedro%\"": [
+	{
+		"AlunoId" : 2,
+		"Nome" : "José Pedro",
+		"Curso" : "Dev",
+		"Nota" : 8
+	},
+	{
+		"AlunoId" : 9,
+		"Nome" : "Pedro",
+		"Curso" : "UX",
+		"Nota" : 3
+	}
+]}

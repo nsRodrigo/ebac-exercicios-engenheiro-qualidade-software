@@ -1,0 +1,27 @@
+{
+"SELECT * FROM EBAC WHERE Curso Like \"QA\"": [
+	{
+		"AlunoId" : 1,
+		"Nome" : "Fábio",
+		"Curso" : "QA",
+		"Nota" : 5
+	},
+	{
+		"AlunoId" : 3,
+		"Nome" : "Mariana",
+		"Curso" : "QA",
+		"Nota" : 9
+	},
+	{
+		"AlunoId" : 4,
+		"Nome" : "Aline",
+		"Curso" : "QA",
+		"Nota" : 6
+	},
+	{
+		"AlunoId" : 7,
+		"Nome" : "Alan",
+		"Curso" : "QA",
+		"Nota" : 8
+	}
+]}

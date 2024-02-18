@@ -1,0 +1,14 @@
+use('EBAC')
+
+db.alunos.find({nome: /Pedro/})
+
+[
+  {
+    "_id": {
+      "$oid": "65289c54149a1fc950037362"
+    },
+    "nome": "José Pedro",
+    "nota": 7,
+    "curso": "UX"
+  }
+]
